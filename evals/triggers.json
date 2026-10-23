@@ -1,0 +1,29 @@
+{
+  "skill": "48-laws-content-master",
+  "test_cases": [
+    {
+      "input": "Write an X thread using the 48 Laws of Power mentality",
+      "should_trigger": true
+    },
+    {
+      "input": "Improve this draft so it has more strategic power and less attack surface",
+      "should_trigger": true
+    },
+    {
+      "input": "Screen this content before I publish it — apply power laws",
+      "should_trigger": true
+    },
+    {
+      "input": "Create a LinkedIn post that builds authority without outshining others",
+      "should_trigger": true
+    },
+    {
+      "input": "What's the weather today?",
+      "should_trigger": false
+    },
+    {
+      "input": "Help me write a simple birthday message",
+      "should_trigger": false
+    }
+  ]
+}

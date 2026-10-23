@@ -1,0 +1,25 @@
+{
+  "skill": "48-laws-content-master",
+  "test_cases": [
+    {
+      "name": "improve_x_thread_draft",
+      "input": "Improve this X thread draft about a new framework I created. Make it more powerful and strategic. Draft: 'I just invented a new model for deal-making. It's better than everything else. Here's why you need it...'",
+      "assertions": ["Asks for or synthesizes context if missing", "Diagnoses relevant laws", "Rewrites with higher density and restraint", "Flags reputation or overclaim risks", "Delivers revised content"]
+    },
+    {
+      "name": "create_linkedin_post",
+      "input": "Write a LinkedIn post that positions me as the authority on Saudi market entry for international companies without sounding arrogant.",
+      "assertions": ["Applies selective laws (especially 1, 4, 5, 9, 34)", "Leads with evidence or observation rather than pure claim", "Protects reputation", "Produces ready-to-use post"]
+    },
+    {
+      "name": "screen_before_publish",
+      "input": "Screen this post before I publish it. Is there any risk? [pastes draft that contains a mild personal attack and overclaim]",
+      "assertions": ["Runs pre-publishing checks", "Assigns risk level", "Flags Law 5, 19, or 26 issues", "Provides concrete revisions"]
+    },
+    {
+      "name": "analytical_score_and_improve",
+      "input": "Score this article draft against power principles and improve the opening and close.",
+      "assertions": ["Provides analytical scoring on key dimensions", "Identifies highest-leverage improvement", "Delivers improved sections"]
+    }
+  ]
+}
